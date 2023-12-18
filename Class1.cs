@@ -9,7 +9,7 @@ public class StudentInfoClass
     public static string FirstName = " ";
     public static string LastName = " ";
     public static string MiddleName = " ";
-    public static string Address = " ";
+    public static string address = " ";
     public static string Program = " ";
 
     public static long Age = 0;
@@ -32,9 +32,9 @@ public class StudentInfoClass
     {
         return MiddleName;
     }
-    public static string GetAddress(string Address)
+    public static string GetAddress(string address)
     {
-        return Address;
+        return address;
     }
     public static string GetProgram(string Program)
     {
